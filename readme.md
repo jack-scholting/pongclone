@@ -1,6 +1,7 @@
 # PongClone #
 
 Normal Gameplay
+
 ![normal](/../resources/pong_ss.PNG?raw=true)
 
 ## Overview ##
