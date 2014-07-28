@@ -1,6 +1,6 @@
 #==============================================================================
 # Author: Jack Scholting
-# Date: 2013-02-16 Sat 08:59 PM
+# Creation Date: 2/16/2013
 # Purpose: Clone of the game "Pong"
 #==============================================================================
 
@@ -8,7 +8,7 @@
 # Imports
 #==============================================================================
 import sys, pygame
- 
+
 #==============================================================================
 # Define Constants
 #==============================================================================
@@ -52,7 +52,7 @@ RED    = ( 255,   0,   0 )
 YELLOW = ( 255, 255,   0 )
 BLUE   = (   0,   0, 255 )
 GREY   = ( 100, 100, 100 )
- 
+
 #==============================================================================
 # Define Game Objects
 #==============================================================================
@@ -156,10 +156,10 @@ pygame.init()
 # Set screen size and title.
 screen = pygame.display.set_mode( ( SCREEN_WIDTH, SCREEN_HEIGHT ) )
 pygame.display.set_caption( "Pong Clone" )
- 
+
 # Get a clock object to use to set the fps.
 clock = pygame.time.Clock()
- 
+
 #==============================================================================
 # Initialize Game Objects
 #==============================================================================
@@ -200,7 +200,7 @@ while True:
     # Move the ball.
     ball.update_position( score_board, paddle_1, paddle_2 )
 
-    # Draw the background (needed to clear all previous drawings). 
+    # Draw the background (needed to clear all previous drawings).
     screen.fill( BLACK )
 
     # Draw the game objects.
